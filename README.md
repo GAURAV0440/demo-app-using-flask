@@ -33,7 +33,3 @@ Entering Gaurav in the form will display: "Hello Gaurav 👋"
 # Links
 
 Loom Video Demo: https://www.loom.com/share/f551da66237f4f6ba3d61980c486dd7a?sid=ec499c80-2969-461f-8551-3d56b70e8fa7
-
-GitHub Repository: [Insert Link Here]
-
-Live Deployment URL: [If available]

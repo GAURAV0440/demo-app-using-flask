@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Enter Name</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <style>
+        h1 {
+            color: #00ffcc;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"] {
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            font-size: 1rem;
+        }
+
+        button {
+            margin-top: 10px;
+            padding: 10px 20px;
+            background-color: #00ffcc;
+            color: #000;
+            border: none;
+            border-radius: 5px;
+            font-weight: bold;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #00bfa6;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+            display: inline-block;
+            margin-top: 20px;
+            font-weight: bold;
+        }
+
+        a:hover {
+            color: #00ffcc;
+        }
+    </style>
+</head>
+<body>
+    <h1>Enter Your Name</h1>
+    <form method="POST">
+        <input type="text" name="username" placeholder="Your name" required>
+        <br><br>
+        <button type="submit">Submit</button>
+    </form>
+    <a href="/">Back to Home</a>
+</body>
+</html>

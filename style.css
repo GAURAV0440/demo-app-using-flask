@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    height: 100vh;
+    background-color: #000;
+    background-image:
+        url("https://www.transparenttextures.com/patterns/stardust.png");
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+h1 {
+    color: #00ffcc;
+    font-size: 2.5rem;
+    margin-bottom: 30px;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    margin-top: 10px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: 0.3s;
+}
+
+.nav-links a:hover {
+    color: #00ffcc;
+}
